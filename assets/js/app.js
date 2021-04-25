@@ -145,7 +145,7 @@ function xScale(censusData, chosenXAxis) {
   }
   
  // Retrieve data from the CSV file and execute everything below
-  d3.csv("/assets/data/data.csv").then(function(censusData, err) {
+  d3.csv("./assets/data/data.csv").then(function(censusData, err) {
      if (err) throw err;
      console.log(censusData)
   
